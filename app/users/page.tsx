@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import UserTable from "./UserTable";
 import { serialize } from "v8";
 import Link from "next/link";
