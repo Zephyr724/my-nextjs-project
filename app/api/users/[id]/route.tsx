@@ -52,7 +52,6 @@ export async function DELETE(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> },
 ) {
-  const body = await request.json();
   const { id } = await params;
   const idNumber = parseInt(id);
 
